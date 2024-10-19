@@ -30,4 +30,6 @@ Bir wordlist dosyasını kullanarak hedef hashli parolayı bulmak için aşağı
 
 ### Brute Force Saldırısı
 
+```sh
 ./yavuzlar-the-ripper -bruteforce -hash=md5 -target=5d41402abc4b2a76b9719d911017c592 -workers=4
+```
