@@ -15,14 +15,11 @@ Yavuzlar The Ripper, parolaları kırmak için kullanılan bir araçtır. Hem s�
 2. Bu projeyi klonlayın:
     ```sh
     git clone https://github.com/muratbulut/yavuzlar-the-ripper.git
-    cd yavuzlar-the-ripper
     ```
 
 ## Kullanım
 
 ### Sözlük Saldırısı
-
-Bir wordlist dosyasını kullanarak hedef hashli parolayı bulmak için aşağıdaki komutu kullanın:
 
 ```sh
 ./yavuzlar-the-ripper -wordlist=wordlist.txt -hash=md5 -target=5d41402abc4b2a76b9719d911017c592 -workers=4
